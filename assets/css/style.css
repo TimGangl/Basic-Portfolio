@@ -1,0 +1,126 @@
+body {
+  width: 100%;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: #777777;
+  background: #dddddd;
+  font-size: 12px;
+  
+}
+.main-content {
+  width: 960px;
+  height: 500px;
+  background: #ffffff;
+  border-color: #dddddd;
+  position: relative;
+  left: 250px;
+  
+}
+header {
+  font-family: Georgia, Times, Times New Roman, serif;
+}
+.header-nav {
+  background-color: #ffffff;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  right: 10px;
+  
+ 
+}
+hr {
+  color: #777777;
+  margin: 0px;
+}
+#name {
+  background-color: #4aaaa4;
+  color: #ffffff;
+  padding: 5px;
+  text-align: center;
+  width: 200px;
+  position: relative;
+  left: 260px;
+  top: 0px;
+}
+ 
+nav {
+  background-color: #ffffff;
+  padding: 5px;
+  float: right;
+  position: absolute;
+  top: 20px;
+  right: 305px;
+  height: 50px;
+  width: 250px;
+  font-size: medium;
+  word-spacing: 20px;
+}
+
+li {
+  display: inline-block;
+  bottom: 0px;
+}
+h1{
+  padding: 5px;
+  
+ 
+}
+#about-me {
+  color:#4aaaa5;
+  text-align: left;
+  width: 960px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  padding: 0px,10px, 10px, 10px;
+}
+
+#portfolio{
+  color:#4aaaa5;
+  text-align: left;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+#contact{
+  color:#4aaaa5;
+  text-align: left;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+#photo {
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 5px;
+  
+}
+p {
+  font-family: Georgia, Times New Roman, Times, serif;
+  width: 930px;
+  font-size: 20px; 
+  line-height: 42px;
+  position: relative;
+  left: 20px;
+  bottom: 30px;
+  text-indent: 40px; 
+ 
+}
+footer {
+  background: #666666;
+  color: #bbbbbb;
+  position: sticky;
+  text-align: center;
+  bottom: 10px;
+  left: 258px;
+  height: 50px;
+  width: auto;
+
+}
+.blue-box{
+  background: #4aaaa4;
+  height: 10px;
+}
+
