@@ -1,36 +1,56 @@
 body {
-  width: 100%;
+  margin: 0px;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   color: #777777;
   background: #dddddd;
   font-size: 12px;
+  background-image: url(../css/gravel/gravel.png);
   
 }
+
 .main-content {
   width: 960px;
-  height: 500px;
+  height: auto;
   background: #ffffff;
   border-color: #dddddd;
   position: relative;
-  left: 250px;
-  
+  left: 250px; 
 }
+
+.main-content2{
+  width: 960px;
+  height: 1200px;
+  background: #ffffff;
+  border-color: #dddddd;
+  position: relative;
+  left: 250px; 
+}
+
 header {
+  margin: 0px;
   font-family: Georgia, Times, Times New Roman, serif;
 }
+
 .header-nav {
   background-color: #ffffff;
   width: 100%;
+  height: 100px;
   position: relative;
   top: 0px;
-  right: 10px;
-  
- 
-}
+  }
+
 hr {
   color: #777777;
   margin: 0px;
 }
+
+.hr-content{
+  position: relative;
+  width: 918px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #name {
   background-color: #4aaaa4;
   color: #ffffff;
@@ -38,8 +58,8 @@ hr {
   text-align: center;
   width: 200px;
   position: relative;
-  left: 260px;
-  top: 0px;
+  left: 250px;
+  top: 20px;
 }
  
 nav {
@@ -48,7 +68,7 @@ nav {
   float: right;
   position: absolute;
   top: 20px;
-  right: 305px;
+  right: 315px;
   height: 50px;
   width: 250px;
   font-size: medium;
@@ -59,11 +79,11 @@ li {
   display: inline-block;
   bottom: 0px;
 }
+
 h1{
   padding: 5px;
-  
- 
 }
+
 #about-me {
   color:#4aaaa5;
   text-align: left;
@@ -95,32 +115,85 @@ h1{
   margin-right: 20px;
   margin-left: 20px;
   border: 5px;
-  
 }
+
 p {
   font-family: Georgia, Times New Roman, Times, serif;
   width: 930px;
   font-size: 20px; 
   line-height: 42px;
   position: relative;
-  left: 20px;
+  left: 18px;
   bottom: 30px;
-  text-indent: 40px; 
- 
 }
+
+.p1{
+  font-size: large;
+  position: relative;
+  bottom: 25px;
+  left: 25px;
+}
+
+Form{
+  font-size: large;
+  position: relative;
+  left: 25px;
+  line-height: 25px;
+}
+
+#button{
+  background-color: #4aaaa4;
+  color: #ffffff;
+  font-size: x-large; 
+}
+
+.thumbnail{
+  position: relative;
+  margin: 0px 10px 10px 10px; 
+  display: inline;  
+}
+
+.overlay{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  margin-right: 20px;
+  background: #4aaaa4;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 0px;
+  bottom: 40px;
+  font-size: medium;
+}
+
+.project-info{ 
+  position: relative;
+  left: 18px;
+  margin-right: 10px;
+}
+
 footer {
   background: #666666;
   color: #bbbbbb;
-  position: sticky;
+  position: fixed;
   text-align: center;
-  bottom: 10px;
-  left: 258px;
+  bottom: 0px;
+  width: 100%;
   height: 50px;
-  width: auto;
-
+  z-index: 2;
 }
+
 .blue-box{
   background: #4aaaa4;
-  height: 10px;
+  height: 8px;
+}
+
+input{
+  width: 735px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
